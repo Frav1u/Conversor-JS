@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+}
+
+body {
+    display: block;
+    background-color: hsl(185, 41%, 84%);
+}
+
+ul {
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 370px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+}
+
+.inputs {
+    background-color: hsl(0, 0%, 100%);
+    margin: 23px;
+}
+
+
+
+.outputs {
+    background-color: hsl(183, 100%, 15%);
+    margin: 23px;
+    width: 304px;
+    height: 324;
+    height: 324px;
+    border-radius: 15px;
+}
+
+.converter {
+    background-color: hsl(172, 67%, 45%);
+    width: 280px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border-width: 0;
+    color: white;
+
+}
+
+.resultadoOctal,
+.resultadoBinario,
+.resultadoHexa {
+    height: 40px;
+    color: hsl(172, 67%, 45%);
+    font-size: 24px;
+    text-align: right;
+    margin: 8px;
+    word-wrap: break-word;
+
+}
+
+.infoHexa,
+.infoBinario,
+.infoOctal {
+    color: hsl(0, 0%, 100%);
+    height: 30px;
+    padding-left: 11px;
+    padding-top: 14px;
+
+}
+
+.infoHexa {
+    margin-top: 50px;
+}
+
+.entrada {
+    width: 280px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: right;
+    background-color: hsl(189, 41%, 97%);
+    border-color: hsl(189, 41%, 97%);
+    color:hsl(183, 100%, 15%);
+
+}
+
+.infoInput {
+    margin-top: 60px;
+    color: hsl(184, 14%, 56%);
+}
+
+.titulo{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 16px;
+    color: hsl(186, 14%, 43%);
+}
