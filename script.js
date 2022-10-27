@@ -60,7 +60,7 @@ botao.addEventListener("click", calcular)
 function calcular() {
     const entrada = document.querySelector(".entrada").value
     if (entrada <= 0) {
-        alert("Informe uma número maior ou igual a 0 ")
+        alert("Informe uma número maior que 0 ")
         return
     }
     document.querySelector(".resultadoBinario").innerText = decimal_para_binario(entrada)
