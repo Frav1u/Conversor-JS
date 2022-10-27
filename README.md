@@ -1,1 +1,1 @@
-!["aro"](print.jpg)
+!["aro"](print.JPG)
